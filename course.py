@@ -23,7 +23,17 @@ def valute_list():
         'monero',
         'dogecoin',
         'litecoin',
-        'tronix'
+        'tronix',
+        'omisego',
+        'stellar',
+        'gigitalcash',
+        'neo',
+        'eos',
+        'verge',
+        'decentraland',
+        'zcash',
+        'lisk',
+        'decred'
     ]
 
 print(course('ripple'))
