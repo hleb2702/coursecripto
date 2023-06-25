@@ -36,6 +36,5 @@ def valute_list():
         'decred'
     ]
 
-print(course('ripple'))
 
 
