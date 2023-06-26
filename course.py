@@ -12,8 +12,7 @@ def course(valute='bitcoin'):
     items = soup.find('div', class_ = "birzha_info_head_rates").get_text(strip=True)
     return float(items[:-1])
 
-def valute_list():
-    return [
+valute_list =  [
         'bitcoin',
         'ethereum',
         'tether',

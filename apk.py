@@ -14,7 +14,7 @@ def go():
 
     tree.insert("", 'end', iid=1, text="List of criptovalute", open=True)
 
-    for i in valute_list():
+    for i in valute_list:
         a = tree.insert(1, index='end', text=i)
     win.mainloop()
 
