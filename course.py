@@ -36,5 +36,8 @@ def valute_list():
         'decred'
     ]
 
+if __name__ == '__main__':
+    print(course())
+
 
 
